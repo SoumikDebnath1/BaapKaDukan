@@ -122,29 +122,33 @@
             const sidebar = document.querySelector('.sidebar');
             sidebar.style.display = 'none';
         };
-    
+        
         return (
+            
+
             <body>
                 <nav>
                     <ul className="sidebar" >
-                        <li onClick={closeSidebar}><a style={{ justifyContent: 'flex-end' }}><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                      
+                        <li onClick={closeSidebar}><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                         <li><a href="#" style={{ textDecoration: 'none', color: 'rgb(253, 253, 253)' }}>Menu</a></li>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Home</a></li>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Predict</a></li>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>About</a></li>
                     </ul>
-                    <ul className='hideOnMobile'>
+                    <ul className='hideOnMobile1'>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Shop</a></li>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Home</a></li>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Predict</a></li>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>About</a></li>
-                        <li className="menu-button" onClick={showSidebar}><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                        <li className="menu-button" onClick={showSidebar}><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
                     </ul>
                 </nav>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+               
                 
             
             </body>
+          
         );
     };
     
