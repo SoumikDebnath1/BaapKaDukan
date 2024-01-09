@@ -81,7 +81,7 @@ nav a:focus {
         display: none;
     }
     .menu-button{
-        display: block;
+        display:block;
     }
 }
 @media  (max-width:400px){
