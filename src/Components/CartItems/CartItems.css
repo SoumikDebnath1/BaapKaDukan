@@ -1,0 +1,143 @@
+/* CartItems.css */
+.CartItems {
+    margin: 20px;
+}
+
+.Cartitems-format-main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-weight: bold;
+    background-color: #f2f2f2;
+    /* Set background color for header */
+}
+
+.Cartitems-format-main p {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.classitems-format {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    margin: 10px 0;
+    background-color: #fff;
+    /* Set background color for each row */
+    border-radius: 5px;
+    /* Add border radius for a cleaner look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+}
+
+.classitems-format img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 auto;
+    /* Center the images horizontally */
+}
+
+.classitems-format p {
+    text-align: center;
+    padding: 10px;
+}
+
+.cartitems-quantity {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cartitems-quantity:hover {
+    background-color: #2980b9;
+}
+
+/* Add this to CartItems.css */
+
+.cartitems-down {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartitems-total {
+    width: 60%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cartitems-total h1 {
+    font-size: 1.5em;
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.cartitems-total-item p {
+    font-weight: bold;
+}
+
+.cartitems-total-item h3 {
+    color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.cartitems-promocode {
+    width: 35%;
+}
+
+.cartitems-promocode-inner {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.cartitems-promocode p {
+    margin-bottom: 10px;
+}
+
+.cartitems-promobox {
+    display: flex;
+}
+
+.cartitems-promobox input {
+    flex: 2;
+    padding: 10px;
+}
+
+.cartitems-promobox button {
+    flex: 1;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cartitems-promobox button:hover {
+    background-color: #c73f24;
+}

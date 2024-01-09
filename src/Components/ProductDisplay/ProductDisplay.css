@@ -1,0 +1,115 @@
+/* ProductDisplay.css */
+
+.productDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productDisplay-left {
+    flex: 1;
+}
+
+.productDisplay-img-list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.productDisplay-img-list img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.productDisplay-img img {
+    width: 100%;
+    height: auto;
+}
+
+.prodictDisplay-main-img {
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+.productDisplay-rignt {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.productDisplay-rignt h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.prodictDisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.prodictDisplay-right-star img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.productdisplay-right-price {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.productdisplay-right-price div {
+    margin-right: 10px;
+}
+
+.productdisplay-right-price-old {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.productdisplay-right-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.productdisplay-right-size h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.productdisplay-right-size div {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.productdisplay-right-category {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.productdisplay-right-category span {
+    font-weight: bold;
+    margin-right: 5px;
+}

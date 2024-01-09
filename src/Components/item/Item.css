@@ -1,0 +1,49 @@
+.item {
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.6s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item-link {
+    text-decoration: none;
+    color: inherit;
+    /* Inherit the color from the parent */
+}
+
+.item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item-name {
+    margin: 6px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item-prices {
+    display: flex;
+    gap: 20px;
+}
+
+.item-price-new {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-price-old {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}

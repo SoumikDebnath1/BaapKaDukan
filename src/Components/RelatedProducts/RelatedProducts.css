@@ -1,0 +1,48 @@
+/* RelatedProducts.css */
+
+.relatedProducts {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.relatedProducts h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.relatedProducts hr {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.relatedproduct-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Equal width columns */
+    gap: 20px;
+    /* Adjust the gap between items */
+}
+
+/* Style for each individual item (assuming it has a class named 'item') */
+.relatedproduct-item .item {
+    width: 100%;
+}
+
+/* Add a maximum width to the images for better display on smaller screens */
+.relatedproduct-item .item img {
+    max-width: 100%;
+    /* Prevent images from growing too large */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .relatedproduct-item {
+        grid-template-columns: 1fr;
+        /* Single column for smaller screens */
+    }
+}

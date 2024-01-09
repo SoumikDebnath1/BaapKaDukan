@@ -1,0 +1,43 @@
+/* Popular.css */
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    /* Add padding for better spacing */
+}
+
+.popular h1 {
+    color: #171717;
+    font-size: 32px;
+    /* Adjust font size for smaller screens */
+    font-weight: 600;
+    text-align: center;
+    /* Center the text */
+    margin-bottom: 10px;
+    /* Add bottom margin for better spacing */
+}
+
+.popular hr {
+    width: 50%;
+    /* Make the line responsive based on the container width */
+    height: 4px;
+
+    border-radius: 5px;
+    background: #252525;
+    margin-bottom: 20px;
+
+}
+
+.popular-item {
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
+}
