@@ -1,11 +1,13 @@
 /* CartItems.css */
 .CartItems {
-    margin: 20px;
+   
 }
 
 .Cartitems-format-main {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    flex-direction: row;
+   
+    /* grid-template-columns: repeat(6, 1fr); */
     font-weight: bold;
     background-color: #f2f2f2;
     /* Set background color for header */
@@ -14,6 +16,7 @@
 .Cartitems-format-main p {
     text-align: center;
     padding: 10px;
+    margin-top: 60px;
     border-bottom: 1px solid #ddd;
 }
 

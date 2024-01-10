@@ -19,7 +19,11 @@
 }
 
 .relatedproduct-item {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+   
+    overflow: scroll;
+    
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     /* Equal width columns */
     gap: 20px;

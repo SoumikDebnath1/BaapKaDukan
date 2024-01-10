@@ -51,6 +51,16 @@ nav a:active,
 nav a:focus {
     color: white;
 }
+.nav-cart-count{
+    background-color: red;
+    border-radius: 60px;
+    position:;
+    height: 5px;
+    width: 5px;
+    text-align: center;
+    padding: 5px;
+    
+}
 .sidebar{
     position: fixed;
     top: 0;
