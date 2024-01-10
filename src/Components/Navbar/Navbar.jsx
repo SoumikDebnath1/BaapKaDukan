@@ -132,15 +132,21 @@
                       
                         <li onClick={closeSidebar}><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                         <li><a href="" style={{ textDecoration: 'none', color: 'rgb(253, 253, 253)' }}>Menu</a></li>
-                        <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Home</a></li>
-                        <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Predict</a></li>
+                        
+                        <li><Link to='/' onClick={() => handleMenuClick("shop")}>Home</Link></li>
+                        <li><Link to='/Womens' onClick={() => handleMenuClick("shop")}>Womens</Link></li>
+                        <li><Link to='/mens' onClick={() => handleMenuClick("shop")}>Mens</Link></li>
+                        <li><Link to='/kids' onClick={() => handleMenuClick("shop")}>Kids</Link></li>
                         <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>About</a></li>
                     </ul>
                     <ul >
-                        <li><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Shop</a></li>
-                        <li className='hideOnMobile1'><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Home</a></li>
-                        <li className='hideOnMobile1'><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>Predict</a></li>
-                        <li className='hideOnMobile1'><a href="" style={{ color: 'rgb(246, 156, 156)', textDecoration: 'none' }}>About</a></li>
+                    <li></li>
+                        
+                        <li className='hideOnMobile1'><Link to='/' onClick={() => handleMenuClick("shop")} className='a1'>SHOP</Link></li>
+                        <li className='hideOnMobile1'><Link to='/' onClick={() => handleMenuClick("shop")} className='a1'>SHOP</Link></li>
+                        <li className='hideOnMobile1'><Link to='/Womens' onClick={() => handleMenuClick("shop")}>Womens</Link></li>
+                        <li className='hideOnMobile1'><Link to='/mens' onClick={() => handleMenuClick("shop")}>Mens</Link></li>
+                        <li className='hideOnMobile1'><Link to='/kids' onClick={() => handleMenuClick("shop")}>Kids</Link></li>
                         <li className="menu-button" onClick={showSidebar}><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
                     </ul>
                 </nav>
